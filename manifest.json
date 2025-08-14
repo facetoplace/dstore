@@ -1,0 +1,215 @@
+{
+  // Short name of the app, displayed on the home screen (very common)
+  "name": { used: 688, example: "Truecaller" },
+
+  // Full name of the app (very common)
+  "short_name": { used: 622, example: "Truecaller" },
+
+  // How the app should be displayed (standalone, minimal-ui, fullscreen, etc.)
+  "display": { used: 633, example: "standalone" },
+
+  // Array of icon objects for different sizes/purposes (very common)
+  "icons": { used: 677, example: [/* Icon objects */] },
+
+  // Start URL when launching app from homescreen/bookmark
+  "start_url": { used: 532, example: "/?homescreen=1" },
+
+  // Background color for the splash screen and launcher
+  "background_color": { used: 544, example: "#0087FF" },
+
+  // Theme color for browser UI (i.e., address bar)
+  "theme_color": { used: 530, example: "#0087FF" },
+
+  // App description for store/search (optional but popular)
+  "description": {
+    used: 200,
+    example: "WHO's primary role is to direct international health within the United Nations' system and to lead partners in global health responses."
+  },
+
+  // Navigation scope for the app, restricts what URLs are considered inside-app
+  "scope": { used: 158, example: "/" },
+
+  // Whether to suggest related apps (like native app store links)
+  "prefer_related_applications": { used: 132, example: true },
+
+  // List of related native applications
+  "related_applications": { used: 161, example: [/* Related app objects */] },
+
+  // Control orientation (e.g. portrait/landscape)
+  "orientation": { used: 113, example: "portrait" },
+
+  // Language of the app (IETF BCP47)
+  "lang": { used: 73, example: "English" },
+
+  // Array of categories for the app (used by stores/search engines)
+  "categories": { used: 63, example: ["entertainment", "news"] },
+
+  // Array of shortcuts for quick actions
+  "shortcuts": { used: 62, example: [/* Shortcut objects */] },
+
+  // Array of screenshot objects (progressive web app preview, experimental)
+  "screenshots": { used: 70, example: [/* Screenshot objects */] },
+
+  // Google Cloud Messaging sender id (deprecated/obsolete)
+  "gcm_sender_id": { used: 67, example: "330561634409" },
+
+  // Set for GCM push, always true (deprecated/obsolete)
+  "gcm_user_visible_only": { used: 55, example: true },
+
+  // Add share target for the Web Share Target API
+  "share_target": {
+    used: 42,
+    example: {
+      action: "/-/sw-upload",
+      method: "POST",
+      enctype: "multipart/form-data",
+      params: {/* Params Object */}
+    }
+  },
+
+  // Unique identifier for the app manifest
+  "id": { used: 45, example: "/" },
+
+  // Enable special links capture (rarely used)
+  "capture_links": { used: 8, example: "none" },
+
+  // List of protocol handlers (handle, e.g., web+app:)
+  "protocol_handlers": { used: 4, example: [/* Protocol handler objects */] },
+
+  // List of file handlers (handle file open events)
+  "file_handlers": { used: 5, example: [/* File handler objects */] },
+
+  // Permissions requested by the app (non-standard)
+  "permissions": { used: 4, example: ["gcm"] },
+
+  // Optional version number for app manifest
+  "version": { used: 7, example: "2.1.0" },
+
+  // Optional manifest version (rare)
+  "manifest_version": { used: 2, example: 2 },
+
+  // Alternative case of "scope" property
+  "Scope": { used: 7, example: "/" },
+
+  // Custom url handlers (rare, browser-specific)
+  "url_handlers": { used: 5, example: [/* Handler objects */] },
+
+  // Used for app shortcuts in desktop browsers (experimental)
+  "display_override": { used: 17, example: ["minimal-ui", "browser"] },
+
+  // Used for Microsoft Tiles (legacy)
+  "msTileColor": { used: 2, example: "#009BAA" },
+
+  // Used by Microsoft Edge for side panel settings (experimental)
+  "edge_side_panel": { used: 11, example: { preferred_width: 376 } },
+
+  // Set text direction (ltr/rtl)
+  "dir": { used: 27, example: "ltr" },
+
+  // Android package name (Google Play integration, rare)
+  "android_package_name": { used: 27, example: "com.pinterest" },
+
+  // iARC rating ID (for content rating)
+  "iarc_rating_id": { used: 3, example: "1ff144b5-7bfc-4207-abed-0e549cb80406" },
+
+  // Custom version for background / splash screen pages (deprecated)
+  "splash_pages": { used: 18, example: null },
+
+  // Short description of the app (unofficial)
+  "short_description": {
+    used: 1,
+    example: "brings together the most popular and best AI models and gives you work with them from a single window or API without subscription payments"
+  },
+
+  // Optional serviceworker info (non-standard)
+  "serviceworker": { used: 2, example: { src: "service-worker.js" } },
+
+  // alternate theme color property (typo/unofficial)
+  "Theme_color": { used: 1, example: "#ffffff" },
+
+  // App logo URL (unofficial)
+  "logo": { used: 1, example: "https://images.kinorium.com/web/favicon/favicon_96.png" },
+
+  // Icon path (unofficial)
+  "iconPath": { used: 3, example: "/images/cake.svg" },
+
+  // Icon URL (unofficial)
+  "iconUrl": { used: 2, example: "https://tonalytics.top/img/tonalytics.png" },
+
+  // Homepage URL (unofficial, sometimes used for context)
+  "homepage_url": { used: 1, example: "https://pancakeswap.finance" },
+
+  // Provided by info (unofficial)
+  "providedBy": { used: 1, example: { name: "Odos", url: "https://odos.xyz" } },
+
+  // Title (lowercase is official; sometimes used as unofficial dup)
+  "title": { used: 1, example: "Tinder" },
+
+  // Version of form factor (rare)
+  "form_factor": { used: 2, example: "wide" },
+
+  // Content Security Policy for app pages (rare, non-standard)
+  "content_security_policy": {
+    used: 1,
+    example: { extension_pages: "script-src 'self'; object-src 'self'" }
+  },
+
+  // App keywords (non-standard)
+  "keywords": { used: 1, example: ["NES", "Emulator", "Game"] },
+
+  // Main app url (unofficial)
+  "url": { used: 3, example: "https://www.who.int" },
+
+  // Default locale for translations (non-standard)
+  "default_locale": { used: 2, example: "en" },
+
+  // Generated by field (unofficial, rare)
+  "generated": { used: 1, example: "undefined" },
+
+  // Prompt message for UI (non-standard)
+  "prompt_message": { used: 1, example: "Add a Home screen icon for easy access to Instagram" },
+
+  // Tab strip object for multiple tabs in app (experimental)
+  "tab_strip": { used: 1, example: { new_tab_button: {/*Obj*/} } },
+
+  // Handle links settings (non-standard)
+  "handle_links": { used: 1, example: "preferred" },
+
+  // Widgets support (non-standard, rare)
+  "widgets": { used: 4, example: [/*Widget objects*/] },
+
+  // Overriding scope extensions (browser-specific, very rare)
+  "ovr_scope_extensions": { used: 1, example: [/*Obj*/] },
+
+  // Special property for Yandex browser manifest
+  "yandex": {
+    used: 1,
+    example: {
+      manifest_version: 1,
+      base_url: "https://www.bestchange.com/",
+      app_version: "2.187",
+      splash_screen_color: "#86b201"
+    }
+  },
+
+  // Arbitrary theme color (non-standard)
+  "color": { used: 1, example: "#ffffff" },
+
+  // JSON schema reference (non-standard, for validation tools)
+  "$schema": {
+    used: 2,
+    example: "https://json.schemastore.org/web-manifest-combined.json"
+  },
+
+  // Alternative (unofficial) descriptions
+  "desdescription": {
+    used: 1,
+    example: "DoHabit is a straightforward habit tracker that doesn’t require registration. Easily mark your completed days, track your progress, and keep a journal for each habit."
+  },
+
+  // App launch handler settings (experimental, browser-specific)
+  "launch_handler": { used: 29, example: { client_mode: "navigate-existing" } },
+
+  // Don't change GCM Sender ID (comment/notice type)
+  "DO_NOT_CHANGE_GCM_SENDER_ID": { used: 1, example: "Do not change the GCM Sender ID" }
+}
